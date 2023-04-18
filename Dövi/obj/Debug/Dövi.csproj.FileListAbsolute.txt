@@ -1,0 +1,17 @@
+C:\Users\alisa\Source\Repos\Iskenderun-Technical-University\donem-projesi-alisanakbas-65-202503032\Dövi\obj\Debug\Dövi.csproj.AssemblyReference.cache
+C:\Users\alisa\Source\Repos\Iskenderun-Technical-University\donem-projesi-alisanakbas-65-202503032\Dövi\obj\Debug\Dövi.csproj.SuggestedBindingRedirects.cache
+C:\Users\alisa\Source\Repos\Iskenderun-Technical-University\donem-projesi-alisanakbas-65-202503032\Dövi\obj\Debug\Dövi.Form1.resources
+C:\Users\alisa\Source\Repos\Iskenderun-Technical-University\donem-projesi-alisanakbas-65-202503032\Dövi\obj\Debug\Dövi.Properties.Resources.resources
+C:\Users\alisa\Source\Repos\Iskenderun-Technical-University\donem-projesi-alisanakbas-65-202503032\Dövi\obj\Debug\Dövi.csproj.GenerateResource.cache
+C:\Users\alisa\Source\Repos\Iskenderun-Technical-University\donem-projesi-alisanakbas-65-202503032\Dövi\obj\Debug\Dövi.csproj.CoreCompileInputs.cache
+C:\Users\alisa\OneDrive\Masaüstü\Veri Tabanlı GP\donem-projesi-alisanakbas-65-1\Dövi\obj\Debug\Dövi.csproj.AssemblyReference.cache
+C:\Users\alisa\OneDrive\Masaüstü\Veri Tabanlı GP\donem-projesi-alisanakbas-65-1\Dövi\obj\Debug\Dövi.csproj.SuggestedBindingRedirects.cache
+C:\Users\alisa\OneDrive\Masaüstü\Veri Tabanlı GP\donem-projesi-alisanakbas-65-1\Dövi\obj\Debug\Dövi.Form1.resources
+C:\Users\alisa\OneDrive\Masaüstü\Veri Tabanlı GP\donem-projesi-alisanakbas-65-1\Dövi\obj\Debug\Dövi.Properties.Resources.resources
+C:\Users\alisa\OneDrive\Masaüstü\Veri Tabanlı GP\donem-projesi-alisanakbas-65-1\Dövi\obj\Debug\Dövi.csproj.GenerateResource.cache
+C:\Users\alisa\OneDrive\Masaüstü\Veri Tabanlı GP\donem-projesi-alisanakbas-65-1\Dövi\obj\Debug\Dövi.csproj.CoreCompileInputs.cache
+C:\Users\alisa\OneDrive\Masaüstü\Veri Tabanlı GP\donem-projesi-alisanakbas-65-1\Dövi\bin\Debug\Dövi.exe.config
+C:\Users\alisa\OneDrive\Masaüstü\Veri Tabanlı GP\donem-projesi-alisanakbas-65-1\Dövi\bin\Debug\Dövi.exe
+C:\Users\alisa\OneDrive\Masaüstü\Veri Tabanlı GP\donem-projesi-alisanakbas-65-1\Dövi\bin\Debug\Dövi.pdb
+C:\Users\alisa\OneDrive\Masaüstü\Veri Tabanlı GP\donem-projesi-alisanakbas-65-1\Dövi\obj\Debug\Dövi.exe
+C:\Users\alisa\OneDrive\Masaüstü\Veri Tabanlı GP\donem-projesi-alisanakbas-65-1\Dövi\obj\Debug\Dövi.pdb
