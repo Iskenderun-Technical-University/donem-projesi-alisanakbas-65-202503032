@@ -79,5 +79,15 @@ namespace Dövi.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap LogoSample_ByTailorBrands {
+            get {
+                object obj = ResourceManager.GetObject("LogoSample_ByTailorBrands", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
