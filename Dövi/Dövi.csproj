@@ -123,5 +123,14 @@
   <ItemGroup>
     <None Include="Resources\LogoSample_ByTailorBrands.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dolar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\euro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ok.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
