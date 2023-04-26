@@ -5,6 +5,7 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
+using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -19,8 +20,8 @@ namespace Dövi
         SqlDataReader dr;
         System.Data.DataSet ds;
         public static string SqlCon = "Data Source=DESKTOP-3BUBNE9\\SQLEXPRESS;Initial Catalog=Döviz;Integrated Security=True";
+        public static string tl = "",dolar = "",euro="";
 
-        
         public Form2()
         {
             InitializeComponent();
@@ -35,9 +36,10 @@ namespace Dövi
 
         private void button1_Click(object sender, EventArgs e)
         {
-            this.Hide();
+           // this.Hide();
             Form3 a = new Form3();
             a.Show();
+           
         }
 
         private void Form2_Load(object sender, EventArgs e)
@@ -53,12 +55,21 @@ namespace Dövi
                 label7.Text = dr.GetString(2);
                 label8.Text = dr.GetString(3);
                 label9.Text = dr.GetInt32(4).ToString();
+                Form3 form3 = new Form3();
                 label14.Text = dr.GetSqlMoney(5).ToString();
+                tl = label14.Text;
                 label15.Text = dr.GetSqlMoney(6).ToString();
+                dolar = label15.Text;
                 label16.Text = dr.GetSqlMoney(7).ToString();
+                euro = label16.Text;
             }
              dr.Close();
              con.Close();
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

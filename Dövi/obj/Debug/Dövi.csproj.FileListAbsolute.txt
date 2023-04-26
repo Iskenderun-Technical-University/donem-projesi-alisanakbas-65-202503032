@@ -17,3 +17,4 @@ C:\Users\alisa\OneDrive\Masaüstü\Veri Tabanlı GP\donem-projesi-alisanakbas-65
 C:\Users\alisa\OneDrive\Masaüstü\Veri Tabanlı GP\donem-projesi-alisanakbas-65-1\Dövi\obj\Debug\Dövi.pdb
 C:\Users\alisa\OneDrive\Masaüstü\Veri Tabanlı GP\donem-projesi-alisanakbas-65-1\Dövi\obj\Debug\Dövi.Form2.resources
 C:\Users\alisa\OneDrive\Masaüstü\Veri Tabanlı GP\donem-projesi-alisanakbas-65-1\Dövi\obj\Debug\Dövi.Form3.resources
+C:\Users\alisa\OneDrive\Masaüstü\Veri Tabanlı GP\donem-projesi-alisanakbas-65-1\Dövi\obj\Debug\Dövi.Form4.resources
