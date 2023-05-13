@@ -26,31 +26,8 @@ namespace Dövi
         public Form1()
         {
             InitializeComponent();
-
-            con = new SqlConnection(SqlCon);
-
-           
-            
-        }
-        
-        private void Form1_Load(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            
-
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-            
-                
-
-        }
-
+            con = new SqlConnection(SqlCon);                      
+        }       
         private void button1_Click_1(object sender, EventArgs e)
         {
             string sorgu = "select * from tbl_login where TC ='"+txtKullaniciAdi.Text+"' and sifre='"+txtSifre.Text+"' ";
@@ -65,11 +42,8 @@ namespace Dövi
                 Form2 form2=new Form2();    
                 this.Hide();
                 Form2 a = new Form2();
-                a.Show();
-                
-
+                a.Show();                
             }
-
             else
             {
                 MessageBox.Show("Hatalı giriş");
@@ -78,17 +52,6 @@ namespace Dövi
                 txtKullaniciAdi.Focus();
             }
             con.Close();
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox1_Click_1(object sender, EventArgs e)
-        {
-
         }
     }
 }

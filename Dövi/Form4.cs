@@ -9,6 +9,7 @@ using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace Dövi
 {
@@ -27,20 +28,32 @@ namespace Dövi
             con = new SqlConnection(SqlCon);
         }
 
+        void Geçmiş ()
+        {
+            con.Open ();
+            da = new SqlDataAdapter("select *from Geçmiş", con);
+            ds= new DataSet();
+            da.Fill (ds,"Geçmiş");
+            dataGridView1.DataSource = ds.Tables["Geçmiş"];
+            con.Close ();
+        }
         private void Form4_Load(object sender, EventArgs e)
         {
-            string query = "SELECT ıD, TC, Ad, Soyad, IBAN,TL, DOLAR, EURO FROM tbl_login WHERE 1 = @Tc";
-            SqlCommand cmd = new SqlCommand(query, con);
-            cmd.Parameters.AddWithValue("@Tc", Form1.Tc.ToString());
-            con.Open();
-            dr = cmd.ExecuteReader();
-            if (dr.Read())
-            {
-               
-            }
-            dr.Close();
-            con.Close();
+            Geçmiş ();
+        }
 
+        private void button1_Click(object sender, EventArgs e)
+        {   con.Open ();
+            string kayit = "Select *from Geçmiş Where Ad LIKE '%' + @Ad + '%' ";
+            SqlCommand komut = new SqlCommand(kayit, con);
+            komut.Parameters.AddWithValue("@Ad", textBox1.Text);
+            SqlDataAdapter da = new SqlDataAdapter(komut);
+            DataTable dt = new DataTable();
+            da.Fill(dt);
+            dataGridView1.DataSource = dt;
+            con.Close();
+            if (textBox1.Text == "") 
+            Geçmiş();
         }
     }
 }

@@ -92,7 +92,6 @@
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(121, 21);
             this.comboBox1.TabIndex = 13;
-            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // comboBox2
             // 
@@ -148,7 +147,6 @@
             this.label1.Size = new System.Drawing.Size(127, 39);
             this.label1.TabIndex = 6;
             this.label1.Text = "----------";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label4
             // 
@@ -252,7 +250,6 @@
             this.label10.Size = new System.Drawing.Size(103, 13);
             this.label10.TabIndex = 28;
             this.label10.Text = "________________";
-            this.label10.Click += new System.EventHandler(this.label10_Click);
             // 
             // Form3
             // 
@@ -279,6 +276,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.webBrowser1);
             this.Name = "Form3";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form3";
             this.Load += new System.EventHandler(this.Form3_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
