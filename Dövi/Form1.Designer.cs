@@ -104,6 +104,7 @@
             this.txtKullaniciAdi.Name = "txtKullaniciAdi";
             this.txtKullaniciAdi.Size = new System.Drawing.Size(184, 24);
             this.txtKullaniciAdi.TabIndex = 15;
+            this.txtKullaniciAdi.Text = "1";
             // 
             // txtSifre
             // 
@@ -114,6 +115,7 @@
             this.txtSifre.Name = "txtSifre";
             this.txtSifre.Size = new System.Drawing.Size(184, 24);
             this.txtSifre.TabIndex = 16;
+            this.txtSifre.Text = "1";
             // 
             // pictureBox2
             // 
